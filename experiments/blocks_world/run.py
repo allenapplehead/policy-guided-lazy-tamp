@@ -16,7 +16,7 @@ import matplotlib
 import yaml
 
 matplotlib.use("Agg")
-from experiments.shared import construct_oracle
+# from experiments.shared import construct_oracle
 import os
 from re import I
 import argparse
@@ -29,8 +29,8 @@ from pddlstream.utils import str_from_object
 from pddlstream.language.constants import PDDLProblem, print_solution
 from pddlstream.algorithms.meta import solve
 from pddlstream.algorithms.algorithm import reset_globals
-from learning import visualization
-from learning import oracle as ora
+# from learning import visualization
+# from learning import oracle as ora
 from panda_station import (
     rt_to_xyzrpy,
     ProblemInfo,
@@ -49,9 +49,9 @@ from panda_station import (
     find_pregrasp,
     Q_NOMINAL,
 )
-from tamp_statistics import make_plot
+# from tamp_statistics import make_plot
 from experiments.blocks_world import blocks_world_streams
-from experiments.blocks_world.data_generation import make_problem
+# from experiments.blocks_world.data_generation import make_problem
 from pddlstream.language.stream import StreamInfo
 
 VERBOSE = False

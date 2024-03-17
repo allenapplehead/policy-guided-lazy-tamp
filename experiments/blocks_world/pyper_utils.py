@@ -8,7 +8,8 @@ from pyperplan.planner import _ground
 from pyperplan.grounding import _get_fact, _collect_facts
 from pyperplan.search.searchspace import SearchNode
 class BlocksWorldPyperTranslator:
-    domain_file = f'/home/{USER}/drake-tamp/experiments/blocks_world/domain_logical.pddl'
+    # domain_file = f'/home/{USER}/drake-tamp/experiments/blocks_world/domain_logical.pddl'
+    domain_file = f'/workspaces/policy-guided-lazy-tamp/experiments/blocks_world/domain_logical.pddl'
     heuristics = {
         "hadd": hAddHeuristic,
         "hff": hFFHeuristic,

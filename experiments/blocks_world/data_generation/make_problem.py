@@ -1,7 +1,7 @@
 import os
 import time
 import itertools
-from learning.poisson_disc_sampling import PoissonSampler, GridSampler
+# from learning.poisson_disc_sampling import PoissonSampler, GridSampler
 import numpy as np
 import yaml
 import xml.etree.ElementTree as ET
